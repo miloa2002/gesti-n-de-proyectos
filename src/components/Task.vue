@@ -54,7 +54,7 @@ watch(() => props.task.inProgress, () => {
             <Icon :icon="completed ? 'material-symbols:check-circle' : 'material-symbols:task-alt'" 
                 class="cursor-pointer"
                 @click="completeTask" />
-            <Icon :icon="inProgress ? 'material-symbols:hourglass-top' : 'material-symbols:task'" 
+            <Icon :icon="inProgress ? 'material-symbols:hourglass-top' : 'material-symbols:update'" 
                 class="cursor-pointer"
                 @click="toggleInProgress" />
             <Icon icon="material-symbols:edit" class="cursor-pointer" @click="showModal" />
